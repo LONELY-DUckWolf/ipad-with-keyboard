@@ -81,9 +81,10 @@ li {
   border-radius: 50px;
 }
 
-body {
+.body {
   background-image: url(./84713.webp);
-  background-size: cover; /* чтобы изображение занимало весь экран *//* чтобы изображение было центрировано */
+  background-size: cover; /* чтобы изображение занимало весь экран */
+/* чтобы изображение было центрировано */
   background-repeat: no-repeat; /* чтобы изображение не повторялось */
   font-family: Arial, sans-serif;
   margin: 0;
