@@ -40,17 +40,21 @@
 <body>
 
 <div class="container">
-  <h2>Регистрация</h2>
-  <form id="registrationForm" onsubmit="registerUser(); return false;">
-    <label for="username">Имя пользователя:</label>
-    <input type="text" id="username" name="username" required>
-
-    <label for="password">Пароль:</label>
-    <input type="password" id="password" name="password" required>
-
-    <button type="submit">Зарегистрироваться</button>
-  </form>
-  <p id="errorMessage" style="color: red;"></p>
+  <ul class="ul-reg">
+    <li>
+      <h2 class="reg-text">Регистрация</h2>
+      <form id="registrationForm" onsubmit="registerUser(); return false;">
+        <label class="text-name" for="username">Имя пользователя:</label>
+        <input type="text" id="username" name="username" required>
+      
+        <label class="text-pasword" for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+      
+        <button type="submit" class="button-reg">Зарегистрироваться</button>
+      </form>
+      <p id="errorMessage" style="color: red;"></p>
+    </li>
+  </ul>
 </div>
 
 <script>

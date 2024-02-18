@@ -35,3 +35,12 @@ body {
       max-width: 100%;
     }
   }
+
+.reg-text {
+    text-align: center;
+}
+
+
+.ul-reg {
+    border-radius: 50px;
+}
