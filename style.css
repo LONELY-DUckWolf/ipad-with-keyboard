@@ -38,9 +38,54 @@ body {
 
 .reg-text {
     text-align: center;
+    color: white;
+}
+
+.text-name {
+  color: white;
+
+}
+
+.text-pasword {
+  color: white;
+}
+
+.button-reg {
+  background-color: #000000;
+}
+
+.ul-reg {
+    margin-top: 300px;
+    text-align: center;
+    background-image: radial-gradient(circle at 91.76% 91.76%, #000000 0, #000000 10%, #000000 20%, #3b3b3b 30%, #494949 40%, #3d3d3d 50%, #494949 60%, #5b5b5b 70%, #6e6e6e 80%, #a4a4a4 90%, #c0c0c0 100%);
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: inset
+    #00000012 0px 1px 2px,
+    #00000012 0px 2px 4px,
+    #00000012 0px 4px 8px,
+    #00000012 0px 8px 16px,
+    #00000012 0px 16px 32px,
+    #00000012 0px 32px 64px;
+}
+
+li {
+  margin-top: 30px;
 }
 
 
-.ul-reg {
-    border-radius: 50px;
+.input {
+  border-radius: 50px;
+}
+
+body {
+  background-image: url(./84713.webp);
+  background-size: cover; /* чтобы изображение занимало весь экран *//* чтобы изображение было центрировано */
+  background-repeat: no-repeat; /* чтобы изображение не повторялось */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }

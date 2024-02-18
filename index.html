@@ -15,6 +15,7 @@
       max-width: 400px;
       margin: auto;
       padding: 20px;
+      
     }
 
     input {
@@ -27,7 +28,7 @@
     }
 
     button {
-      background-color: #4CAF50;
+      background-color: #081308be;
       color: white;
       padding: 14px 20px;
       margin: 8px 0;
@@ -45,10 +46,10 @@
       <h2 class="reg-text">Регистрация</h2>
       <form id="registrationForm" onsubmit="registerUser(); return false;">
         <label class="text-name" for="username">Имя пользователя:</label>
-        <input type="text" id="username" name="username" required>
+        <input class="input" type="text" id="username" name="username" required>
       
         <label class="text-pasword" for="password">Пароль:</label>
-        <input type="password" id="password" name="password" required>
+        <input class="input" type="password" id="password" name="password" required>
       
         <button type="submit" class="button-reg">Зарегистрироваться</button>
       </form>
