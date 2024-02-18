@@ -90,3 +90,139 @@ li {
   margin: 0;
   padding: 0;
 }
+
+.apale {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.basket {
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
+
+.ul-apple {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.vision-pro {
+  display: flex;
+  justify-content: center;
+  margin-left: 225px;
+  margin-top: 50px;
+  width: 1400px;
+  height: 700px;
+}
+
+.li-apple {
+  margin-top: 55px;
+}
+
+.text-apple {
+  font-size: 15px;
+}
+
+/* Добавляем стили для списка с ползунком */
+
+.ul-iaphonee {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iaphonee {
+  width: 250px;
+  height: 250px;
+}
+
+.i-button {
+  border-radius: 50px;
+  width: 125px;
+  height: 40px;
+  margin-left: 15px;3
+
+}
+
+.i-li {
+  margin-top: 300px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  box-shadow: inset
+  #00000012 0px 1px 2px,
+  #00000012 0px 2px 4px,
+  #00000012 0px 4px 8px,
+  #00000012 0px 8px 16px,
+  #00000012 0px 16px 32px,
+  #00000012 0px 32px 64px;
+}
+
+.i-li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  transition: transform 0.5s; /* Добавляем плавный переход для эффекта */
+}
+
+.i-li:hover {
+  transform: scale(1.2); /* Увеличиваем в 1.2 раза и поворачиваем на 15 градусов */
+}
+
+.iaphonee {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(119, 95, 95, 0); /* Добавим рамку для видимости границ изображения */
+}
+
+p, button {
+  margin: 5px 0;
+}
+
+/* При наведении на кнопку, меняем цвет фона */
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.ul-footer1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-footer2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-footer3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-footer {
+  color: white;
+  text-align: center;
+}
+
+.a {
+  margin-top: 50px;
+}
+
+p1 {
+  color: white;
+}
+ 
+footer {
+  margin-top: 70px;
+  background-color: #494949;
+}
